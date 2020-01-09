@@ -3,6 +3,7 @@ dependencies:
   - type: php
     path: /
     settings:
+      composer_options: --no-scripts
       branch_prefix: support/
       related_pr_behavior: close
       github_base_branch: master
