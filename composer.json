@@ -1,0 +1,84 @@
+{
+    "name": "adventure-com",
+    "description": "adventure.com wordpress",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "advanced-custom-fields/advanced-custom-fields-pro",
+                "version": "5.8.2",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=b3JkZXJfaWQ9MTA0MTM4fHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxNy0wNC0xMyAwMzo0MDozNw=="
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "relevanssi/relevanssi-premium",
+                "version": "1.16.1",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://www.relevanssi.com/update/get_version.php?api_key=0628c52c&version=1.16.1"
+                }
+            }
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    },
+    "require": {
+        "composer/installers": "~1.0.6",
+        "johnpbloch/wordpress": ">=4.8.3",
+        "johnpbloch/wordpress-core-installer": "~1.0",
+        "wpackagist-plugin/edit-flow": "0.9",
+        "wpackagist-plugin/enhanced-media-library": "2.7.2",
+        "wpackagist-plugin/ewww-image-optimizer": "5.0.0",
+        "wpackagist-plugin/regenerate-thumbnails": "3.1.1",
+        "wpackagist-plugin/w3-total-cache": "0.10.1",
+        "wpackagist-plugin/wordfence": "7.4.0",
+        "wpackagist-plugin/wordpress-seo": "12.2",
+        "wpackagist-theme/twentyseventeen": "2.1",
+        "wp-cli/wp-cli": "1.2.1",
+        "aws/aws-sdk-php": "^3.87",
+        "monolog/monolog": "^1.24",
+        "platformsh/config-reader": "^1.0",
+        "wpackagist-plugin/publish-to-apple-news": "2.0.3",
+        "wpackagist-plugin/leaky-paywall": "^4.12",
+        "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.2",
+        "relevanssi/relevanssi-premium": "^1.16.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "wpackagist-plugin/give":"^2.5.10"
+    },
+    "require-dev": {
+        "phing/phing": "^2.16"
+    },
+    "scripts": {
+        "pre-update-cmd": [
+            "@php scripts/envato_plugin_download.php",
+            "bash scripts/envato_plugin_update.sh"
+        ],
+        "post-install-cmd": [
+            "cp wp-config.php site/wp-config.php",
+            "cp -r site/wp/* site",
+            "cp site/wp-content/plugins/w3-total-cache/wp-content/advanced-cache.php site/wp-content",
+            "cp site/wp-content/plugins/w3-total-cache/wp-content/object-cache.php site/wp-content"
+        ]
+    },
+    "extra": {
+        "installer-paths" : {
+            "site/wp-content/plugins/{$name}/" : ["type:wordpress-plugin"],
+            "site/wp-content/themes/{$name}/" : ["type:wordpress-theme"]
+        },
+        "wordpress-install-dir": "site/wp"
+    }
+}

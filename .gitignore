@@ -1,0 +1,122 @@
+# Project Specific Ignores #
+# ------------------------ #
+local-config.php
+dbtool
+wp-cli.local.yml
+
+# Wordpress Specific Ignores #
+# -------------------------- #
+# Assumes WP in a site subfolder
+
+*.log
+envato-backups
+site/
+wp-content
+!site/wp-content
+site/wp-content/themes/*
+!site/wp-content/themes/adventure_2017
+!site/wp-content/plugins/ig-subscription
+!site/wp-content/plugins/chimpmate-pro
+!site/wp-content/plugins/ads-pro
+!site/wp-content/plugins/give-currency-switcher
+!site/wp-content/plugins/give-fee-recovery
+!site/wp-content/plugins/give-form-field-manager
+!site/wp-content/plugins/give-google-analytics
+!site/wp-content/plugins/give-mailchimp
+!site/wp-content/plugins/give-manual-donations
+!site/wp-content/plugins/give-paypal-pro
+!site/wp-content/plugins/give-pdf-receipts
+!site/wp-content/plugins/give-recurring
+!site/wp-content/plugins/give-stripe
+
+# SASS Ignores #
+# ------------ #
+.sass-cache/
+*.css.map
+
+# Node Ignores #
+# ------------ #
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+build/Release
+node_modules
+jspm_packages
+.npm
+.node_repl_history
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.cache
+.project
+.settings
+nbproject
+
+# Folders to ignore
+.hg
+.svn
+publish
+.idea
+.buildpath
+.sass-cache
+site/wp-config.php
+
+*.sublime-workspace
+*.sublime-project
+
+
+ics/
+pdf/
+
+old/
+node_modules
+vendor
+
+# IG specific ignores
+.environment
+.DS_Store
+.idea
+.rocketeer/logs
+wordpress/wp-content/uploads
+wordpress/wp-content/plugins/woocommerce/logs/paypal.txt
+.vagrant/
+Vagrantfile
+/vendor/
+site/wp-content/plugins/leaky-paywall/
