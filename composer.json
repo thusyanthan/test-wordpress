@@ -37,7 +37,7 @@
         }
     },
     "require": {
-        "composer/installers": "~1.0.6",
+        "composer/installers": "v1.7.0",
         "johnpbloch/wordpress": ">=4.8.3",
         "johnpbloch/wordpress-core-installer": "~1.0",
         "wpackagist-plugin/edit-flow": "0.9",
