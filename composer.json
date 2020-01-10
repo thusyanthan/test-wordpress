@@ -51,7 +51,7 @@
         "wp-cli/wp-cli": "1.2.1",
         "aws/aws-sdk-php": "^3.87",
         "monolog/monolog": "^1.24",
-        "platformsh/config-reader": "^1.0",
+        "platformsh/config-reader": "2.3.1",
         "wpackagist-plugin/publish-to-apple-news": "2.0.3",
         "wpackagist-plugin/leaky-paywall": "^4.12",
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.2",
