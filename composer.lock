@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d8587ef9a15b6fd201f2be0fa8fad38",
+    "content-hash": "763dc9bdc5dc53f16ab6cfede41ee025",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -4121,15 +4121,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.2",
+            "version": "12.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.2"
+                "reference": "tags/12.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
