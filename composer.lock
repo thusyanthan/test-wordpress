@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d8587ef9a15b6fd201f2be0fa8fad38",
+    "content-hash": "d5521c7a0f4ebf7ce91ce236ed1880c5",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -3959,15 +3959,15 @@
         },
         {
             "name": "wpackagist-plugin/edit-flow",
-            "version": "0.9",
+            "version": "0.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/edit-flow/",
-                "reference": "tags/0.9"
+                "reference": "tags/0.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/edit-flow.0.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/edit-flow.0.9.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
