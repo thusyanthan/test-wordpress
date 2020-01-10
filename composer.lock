@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d8587ef9a15b6fd201f2be0fa8fad38",
+    "content-hash": "a0c404d3c9bc84a53cef69589c878312",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -4139,15 +4139,15 @@
         },
         {
             "name": "wpackagist-theme/twentyseventeen",
-            "version": "2.1",
+            "version": "2.2",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentyseventeen/",
-                "reference": "2.1"
+                "reference": "2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.2.1.zip"
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.2.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
