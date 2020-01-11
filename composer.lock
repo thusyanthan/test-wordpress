@@ -17,16 +17,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.132.1",
+            "version": "3.132.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b12a8adb23793baa2b69f8078d05ee59e816f1ec"
+                "reference": "f814995664d4ad616f674e664ae069b9f4e340bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b12a8adb23793baa2b69f8078d05ee59e816f1ec",
-                "reference": "b12a8adb23793baa2b69f8078d05ee59e816f1ec",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f814995664d4ad616f674e664ae069b9f4e340bf",
+                "reference": "f814995664d4ad616f674e664ae069b9f4e340bf",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-01-08T19:14:13+00:00"
+            "time": "2020-01-10T19:14:49+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1377,7 +1377,7 @@
                 "array_column",
                 "column"
             ],
-            "abandoned": true,
+            "abandoned": "it-for-free/array_column",
             "time": "2015-03-20T22:07:39+00:00"
         },
         {
