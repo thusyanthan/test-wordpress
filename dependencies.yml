@@ -8,8 +8,6 @@ dependencies:
       related_pr_behavior: close
       github_base_branch: master
       pullrequest_notes: Please make sure that this PR is based against master - then, create a hotfix branch for the support sprint and rebase this PR against it. If the changes seem sound, merge the branch into the hotfix branch.
-      before_update:
-        - "docker-php-ext-install -j4 bcmath"
       manifest_updates:
         filters:
           - name: ".*"
