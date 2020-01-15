@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d8587ef9a15b6fd201f2be0fa8fad38",
+    "content-hash": "48d850a1b848b392fc36535133e0c1ea",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1377,7 +1377,7 @@
                 "array_column",
                 "column"
             ],
-            "abandoned": true,
+            "abandoned": "it-for-free/array_column",
             "time": "2015-03-20T22:07:39+00:00"
         },
         {
@@ -4103,15 +4103,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "7.4.0",
+            "version": "7.4.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/7.4.0"
+                "reference": "tags/7.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.7.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordfence.7.4.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

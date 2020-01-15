@@ -45,7 +45,7 @@
         "wpackagist-plugin/ewww-image-optimizer": "5.0.0",
         "wpackagist-plugin/regenerate-thumbnails": "3.1.1",
         "wpackagist-plugin/w3-total-cache": "0.10.1",
-        "wpackagist-plugin/wordfence": "7.4.0",
+        "wpackagist-plugin/wordfence": "7.4.4",
         "wpackagist-plugin/wordpress-seo": "12.2",
         "wpackagist-theme/twentyseventeen": "2.1",
         "wp-cli/wp-cli": "1.2.1",
